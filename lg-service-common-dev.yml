@@ -24,6 +24,11 @@ spring:
           starttls:
             enable: true
             required: true
+  boot:
+    admin:
+      notify:
+        mail:
+          from: 15858159042@163.com
 
 ip:
   explosion:
